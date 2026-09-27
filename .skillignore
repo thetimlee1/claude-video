@@ -17,6 +17,7 @@ dist/
 .github/
 .agents/
 .claude-plugin/
+.claude/
 hooks/
 dev-sync.sh
 

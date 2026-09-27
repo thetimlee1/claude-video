@@ -14,3 +14,8 @@ htmlcov/
 
 # local Claude Code settings
 .claude/settings.local.json
+
+# Playwright CLI scratch output (dev-time skill in .claude/skills/playwright)
+.playwright-cli/
+test-results/
+playwright-report/

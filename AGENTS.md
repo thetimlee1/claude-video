@@ -14,6 +14,7 @@ Agent Skills package that gives an agent a video input. Installable across Claud
 - `.agents/plugins/marketplace.json` — agents marketplace listing pointing at the repo-root plugin.
 - `CLAUDE.md` → `@AGENTS.md` — generic-agent entry point.
 - `tests/` — pytest suite (ffmpeg-synthesized clips; no network).
+- `.claude/skills/playwright/` — dev-time browser-automation skill (Microsoft `playwright-cli`) for sessions working in this repo. Excluded from the published package via `.skillignore`; never a runtime dependency of `watch`.
 
 ## Orientation
 
