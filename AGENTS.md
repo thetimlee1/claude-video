@@ -15,6 +15,7 @@ Agent Skills package that gives an agent a video input. Installable across Claud
 - `CLAUDE.md` → `@AGENTS.md` — generic-agent entry point.
 - `tests/` — pytest suite (ffmpeg-synthesized clips; no network).
 - `.claude/skills/playwright/` — dev-time browser-automation skill (Microsoft `playwright-cli`) for sessions working in this repo. Excluded from the published package via `.skillignore`; never a runtime dependency of `watch`.
+- `.claude/skills/karpathy-guidelines/` — dev-time coding discipline (Karpathy's four rules: think before coding, simplicity first, surgical changes, goal-driven execution). Applies to every code change in this repo; also excluded via `.skillignore`.
 
 ## Orientation
 
