@@ -20,6 +20,7 @@ working in this repo** — it is excluded from the published `watch` package
   URL the page loads; screenshot or record a web flow for docs; test any web UI.
 - **Outranked by:** the user's instruction and `AGENTS.md`. The product here is the
   `watch` skill; Playwright is a helper and never becomes a runtime dependency of it.
+- **Division of labour with `karpathy-guidelines`:** when the task changes code, that skill governs the change (assumptions, minimal diff, a check per step); this one only drives the browser and gathers the evidence that the check passed. Neither repeats the other.
 - **Guardrails (always):**
   - Never submit a real form, place an order, send a message, log into an account,
     or spend money without the user's go-ahead. Prefer local pages or mocked

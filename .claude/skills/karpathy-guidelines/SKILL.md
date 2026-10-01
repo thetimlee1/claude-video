@@ -22,6 +22,7 @@ below says how they apply in this repo.
 - **Verify with:** the pytest suite (`.venv/bin/pytest -q`) and, for packaging changes,
   `bash skills/watch/scripts/build-skill.sh`. Goal-driven execution (rule 4) means a
   failing test or build first, then the fix.
+- **Division of labour with `playwright`:** this skill governs how code changes; when a check needs a real browser (a web page, a UI flow), `playwright` runs it. Neither repeats the other.
 - **Two reconciliations** (these rules would otherwise fight a "don't ask needless
   questions, fix obvious problems" working style):
   1. *"If uncertain, ask"*: ask only when the answer would change what gets built.
